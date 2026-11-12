@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 带购物车和学生折扣功能的结账程序。
- * 操作者可通过菜单添加、删除、查看商品，并自主选择身份进行结账测试。
+ * 商品名称、价格、数量及顾客身份全部由操作者输入，不包含固定测试数据。
  */
 public class Checkout {
 
@@ -269,7 +269,7 @@ public class Checkout {
         }
     }
 
-    /** 程序入口：测试过程完全由操作者通过菜单控制。 */
+    /** 程序入口：购物数据和结账身份全部由操作者通过菜单输入。 */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ShoppingCart cart = new ShoppingCart();
